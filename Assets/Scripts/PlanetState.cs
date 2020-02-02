@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 using UnityEngine;
 
@@ -9,30 +10,39 @@ public class PlanetState : MonoBehaviour
 
     public EZone DEBUG_ZONE = 0;
 
+    [SerializeField] private Sequencer m_sequencer;
+
     void Start()
     {
         m_planetZones.ForEach(z => z.CurrentState = -1);
+
+        m_sequencer.OnTrackChanged += SequencerTrackChanged;
     }
 
-    void Update()
+    private void SequencerTrackChanged()
     {
-        // if (Input.GetKeyDown(KeyCode.DownArrow))
-        // {
-        //     DebugLock();
-        // }
+        foreach (var zone in m_planetZones)
+        {
+            if (zone.Unlocked)
+                continue;
 
-        // if (Input.GetKeyDown(KeyCode.UpArrow))
-        // {
-        //     DebugUnlock();
-        // }
+            var playingSamples = m_sequencer.PlayingSamples.Distinct().ToList();
+            int rightSamples = zone.SamplesToUnlock.Where(s => playingSamples.Contains(s)).ToList().Count;
+
+            if (zone.CurrentState < rightSamples - 1)
+            {
+                UnlockState(zone.Zone);
+            }
+            else if (zone.CurrentState > rightSamples - 1)
+            {
+                LockState(zone.Zone);
+            }
+        }
     }
 
     private void LockState(EZone p_zone)
     {
         var planetZone = m_planetZones.Find(z => z.Zone == p_zone);
-
-        if (planetZone.CurrentState < 0)
-            return;
 
         planetZone.LockedStates[planetZone.CurrentState].SetActive(true);
         planetZone.UnlockedStates[planetZone.CurrentState].SetActive(false);
@@ -50,6 +60,11 @@ public class PlanetState : MonoBehaviour
 
         planetZone.LockedStates[planetZone.CurrentState].SetActive(false);
         planetZone.UnlockedStates[planetZone.CurrentState].SetActive(true);
+
+        if (planetZone.CurrentState == planetZone.UnlockedStates.Length - 1)
+        {
+            planetZone.Unlocked = true;
+        }
     }
 
     [ContextMenu("Debug lock")]

@@ -11,5 +11,9 @@ public class PlanetZone
     public GameObject[] LockedStates = new GameObject[3];
     public GameObject[] UnlockedStates = new GameObject[3];
 
+    public Sample[] SamplesToUnlock = new Sample[3];
+
     public int CurrentState = -1;
+
+    public bool Unlocked = false;
 }

@@ -8,6 +8,9 @@ using Lean.Touch;
 
 public class SeedsPackage : MonoBehaviour
 {
+    public Sample Sample => m_sample;
+
+    [SerializeField] private Sample m_sample;
     [SerializeField] private BoxCollider2D m_collider;
     private LeanFinger m_finger;
 
