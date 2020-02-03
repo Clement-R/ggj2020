@@ -754,7 +754,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2260871483445407794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.653, z: 0}
+  m_LocalPosition: {x: 0, y: 0.493, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2260871483601641224}
@@ -799,7 +799,7 @@ SpriteRenderer:
   m_SortingLayerID: -1293374761
   m_SortingLayer: 3
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: 57939108298a79b4b939e4d50b43018c, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -807,7 +807,7 @@ SpriteRenderer:
   m_Size: {x: 10.24, y: 10.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2260871483601641226
@@ -879,7 +879,7 @@ MonoBehaviour:
   - {fileID: 4721040501813081589}
   - {fileID: 8991500880192547276}
   - {fileID: 71734803250735673}
-  m_flowerRenderer: {fileID: 0}
+  m_flowerRenderer: {fileID: 2260871483445407792}
 --- !u!61 &4015856622339926118
 BoxCollider2D:
   m_ObjectHideFlags: 0

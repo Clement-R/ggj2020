@@ -25,14 +25,14 @@ public class FlowerPot : MonoBehaviour
         if (m_hoveringPackage != null)
         {
             OnSampleChange?.Invoke(m_hoveringPackage.Sample);
-            UpdateFlower();
+            UpdateFlower(m_hoveringPackage.Flower);
         }
     }
 
-    private void UpdateFlower()
+    private void UpdateFlower(Sprite p_flower)
     {
-        //TODO: Get seed flower's sprite and change for it
-        // m_flowerRenderer.sprite = 
+        //TODO: Appear effect
+        m_flowerRenderer.sprite = p_flower;
     }
 
     private void UpdateOutline()
