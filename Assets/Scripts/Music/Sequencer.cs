@@ -9,6 +9,7 @@ public class Sequencer : MonoBehaviour
 {
     public Action OnBar;
     public Action OnBeat;
+    public Action OnStop;
 
     public Action OnTrackChanged;
 
@@ -16,6 +17,7 @@ public class Sequencer : MonoBehaviour
     public float CycleProgression => m_cycleProgression;
     public float CycleDuration => m_cycleDuration;
     public int CurrentBar => m_currentBar;
+    public float BarDuration => m_barDurationInSeconds;
 
     public List<Sample> PlayingSamples => m_tracks.Where(t => t.Sample != null).Select(t => t.Sample).ToList();
 
@@ -49,6 +51,10 @@ public class Sequencer : MonoBehaviour
         if (m_isPlaying == false)
         {
             Play();
+        }
+        else if (p_track.Sample == null)
+        {
+            CheckIfShouldStop();
         }
 
         OnTrackChanged?.Invoke();
@@ -95,5 +101,15 @@ public class Sequencer : MonoBehaviour
 
         m_barStart = Time.time;
         OnBar?.Invoke();
+    }
+
+    private void CheckIfShouldStop()
+    {
+        if (m_tracks.All(t => t.Sample == null))
+        {
+            m_isPlaying = false;
+            m_currentBar = 0;
+            OnStop?.Invoke();
+        }
     }
 }

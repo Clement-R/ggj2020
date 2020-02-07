@@ -21,6 +21,7 @@ public class Track : MonoBehaviour
     void Start()
     {
         m_flowerPot.OnSampleChange += SampleChange;
+        m_flowerPot.OnSampleRemoved += SampleRemoved;
     }
 
     public void Register(Sequencer p_sequencer)
@@ -33,6 +34,13 @@ public class Track : MonoBehaviour
     {
         m_sample = p_sample;
         m_waitForBarToStart = true;
+        OnTrackChanged?.Invoke(this);
+    }
+
+    private void SampleRemoved()
+    {
+        m_sample = null;
+        m_audioSource.Stop();
         OnTrackChanged?.Invoke(this);
     }
 
