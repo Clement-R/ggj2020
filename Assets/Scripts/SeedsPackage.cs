@@ -6,6 +6,8 @@ using UnityEngine;
 
 using Lean.Touch;
 
+using DG.Tweening;
+
 public class SeedsPackage : MonoBehaviour
 {
     public Sample Sample => m_sample;
@@ -25,8 +27,8 @@ public class SeedsPackage : MonoBehaviour
         m_camera = Camera.main;
         m_startPosition = transform.position;
 
-        LeanTouch.OnFingerUp += FingerUp;
         LeanTouch.OnFingerDown += FingerDown;
+        LeanTouch.OnFingerUp += FingerUp;
     }
 
     private void Update()
@@ -55,7 +57,9 @@ public class SeedsPackage : MonoBehaviour
             return;
 
         m_finger = null;
-        transform.position = m_startPosition;
+
+        transform.position = m_startPosition - Vector3.up;
+        transform.DOMoveY(m_startPosition.y, 0.5f).SetDelay(0.15f);
     }
 
     private bool PositionIsOver(Vector3 p_screenPosition)
