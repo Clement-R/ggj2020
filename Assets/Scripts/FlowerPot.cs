@@ -18,7 +18,7 @@ public class FlowerPot : MonoBehaviour
     [SerializeField] Collider2D m_removeSampleButton;
 
     private bool m_outlined = false;
-    private SeedsPackage m_hoveringPackage = null;
+    private SeedsPackageUI m_hoveringPackage = null;
     private Material m_spriteDissolver;
     private Tweener m_appearEffect;
     private float m_appearEffectDuration = 1f;
@@ -85,7 +85,7 @@ public class FlowerPot : MonoBehaviour
     {
         if (p_collider.gameObject.CompareTag("SeedsPackage"))
         {
-            m_hoveringPackage = p_collider.gameObject.GetComponent<SeedsPackage>();
+            m_hoveringPackage = p_collider.gameObject.GetComponent<SeedsPackageUI>();
 
             m_outlined = true;
             UpdateOutline();
