@@ -3049,14 +3049,6 @@ MonoBehaviour:
   m_planetZones:
   - Name: Fall
     Zone: 0
-    LockedStates:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    UnlockedStates:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
     SamplesToUnlock:
     - {fileID: 11400000, guid: 8192fc2be7728c6409cb8f8929e70403, type: 2}
     - {fileID: 11400000, guid: e979b1dc1113d184aa81ffd85f5b22c7, type: 2}
@@ -3065,14 +3057,6 @@ MonoBehaviour:
     Unlocked: 0
   - Name: Ice
     Zone: 3
-    LockedStates:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    UnlockedStates:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
     SamplesToUnlock:
     - {fileID: 0}
     - {fileID: 0}
@@ -3081,14 +3065,6 @@ MonoBehaviour:
     Unlocked: 0
   - Name: Nature
     Zone: 1
-    LockedStates:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    UnlockedStates:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
     SamplesToUnlock:
     - {fileID: 0}
     - {fileID: 0}
@@ -3097,20 +3073,13 @@ MonoBehaviour:
     Unlocked: 0
   - Name: Desert
     Zone: 2
-    LockedStates:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    UnlockedStates:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
     SamplesToUnlock:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
     CurrentState: 0
     Unlocked: 0
+  m_numberOfLockedStates: 3
   DEBUG_ZONE: 0
   m_sequencer: {fileID: 705235939}
 --- !u!1 &1178846243
@@ -3913,7 +3882,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f4c0884aac30ba2459fc8bdf8ac0ddd7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.65882355}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
