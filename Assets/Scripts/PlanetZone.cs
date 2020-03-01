@@ -8,8 +8,6 @@ public class PlanetZone
 {
     public string Name;
     public EZone Zone;
-    public GameObject[] LockedStates = new GameObject[3];
-    public GameObject[] UnlockedStates = new GameObject[3];
 
     public Sample[] SamplesToUnlock = new Sample[3];
 
