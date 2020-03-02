@@ -1,20 +1,28 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 using DG.Tweening;
 
 public class BarDurationUI : MonoBehaviour
 {
     [SerializeField] private Sequencer m_sequencer;
-    private Material m_spriteDissolver;
+    [SerializeField] private string m_shaderProperty = "_CutOutAmount";
+    [SerializeField] private float m_startValue = 1f;
+    [SerializeField] private float m_endValue = 0f;
+    private Material m_material;
     private Tweener m_tweener;
 
     private void Start()
     {
-        m_spriteDissolver = GetComponent<SpriteRenderer>().material;
+        var renderer = GetComponent<Renderer>();
+        if (renderer)
+            m_material = renderer.material;
+
+        var image = GetComponent<Image>();
+        if (image)
+            m_material = image.material;
+
+        m_material.SetFloat(m_shaderProperty, m_startValue);
 
         m_sequencer.OnBar += Bar;
         m_sequencer.OnStop += Stop;
@@ -23,14 +31,14 @@ public class BarDurationUI : MonoBehaviour
     private void Stop()
     {
         m_tweener.Kill();
-        m_spriteDissolver.SetFloat("_CutOutAmount", 1f);
+        m_material.SetFloat(m_shaderProperty, m_startValue);
     }
 
     private void Bar()
     {
         m_tweener?.Kill();
 
-        m_spriteDissolver.SetFloat("_CutOutAmount", 1f);
-        m_tweener = m_spriteDissolver.DOFloat(0f, "_CutOutAmount", m_sequencer.BarDuration).SetEase(Ease.Linear);
+        m_material.SetFloat(m_shaderProperty, m_startValue);
+        m_tweener = m_material.DOFloat(m_endValue, m_shaderProperty, m_sequencer.BarDuration).SetEase(Ease.Linear);
     }
 }
