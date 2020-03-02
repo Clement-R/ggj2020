@@ -965,6 +965,7 @@ MonoBehaviour:
   - {fileID: 8991500880192547276}
   - {fileID: 71734803250735673}
   m_flowerRenderer: {fileID: 2260871483445407792}
+  m_sampleBadge: {fileID: 2166900527571810294}
   m_removeSampleButton: {fileID: 1097264043338855056}
 --- !u!61 &4015856622339926118
 BoxCollider2D:

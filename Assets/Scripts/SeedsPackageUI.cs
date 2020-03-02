@@ -11,6 +11,7 @@ public class SeedsPackageUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 {
     public Sample Sample => m_sample;
     public Sprite Flower => m_flower.sprite;
+    public Color Color => m_color;
 
     [SerializeField] private Image m_flower;
     [SerializeField] private Image m_top;
@@ -42,13 +43,7 @@ public class SeedsPackageUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     private void OnValidate()
     {
         m_background.color = m_color;
-
-        float h;
-        float s;
-        float v;
-        Color.RGBToHSV(m_color, out h, out s, out v);
-        s += 0.2f;
-        m_top.color = Color.HSVToRGB(h, s, v);
+        m_top.color = m_color.DarkerShade();
     }
 
     public void OnBeginDrag(PointerEventData eventData)

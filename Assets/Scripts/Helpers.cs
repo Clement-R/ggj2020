@@ -8,4 +8,19 @@ public static class Helpers
         var worldPosition = p_camera.ScreenToWorldPoint(p_screenPosition);
         return p_collider.OverlapPoint(worldPosition);
     }
+
+    public static Color SetA(this Color p_color, float p_a)
+    {
+        return new Color(p_color.r, p_color.g, p_color.b, p_a);
+    }
+
+    public static Color DarkerShade(this Color p_color)
+    {
+        float h;
+        float s;
+        float v;
+        Color.RGBToHSV(p_color, out h, out s, out v);
+        s += 0.2f;
+        return Color.HSVToRGB(h, s, v);
+    }
 }

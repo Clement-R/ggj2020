@@ -15,6 +15,7 @@ public class FlowerPot : MonoBehaviour
 
     [SerializeField] List<GameObject> m_outlineParts;
     [SerializeField] SpriteRenderer m_flowerRenderer;
+    [SerializeField] SpriteRenderer m_sampleBadge;
     [SerializeField] Collider2D m_removeSampleButton;
 
     private bool m_outlined = false;
@@ -28,6 +29,7 @@ public class FlowerPot : MonoBehaviour
         m_spriteDissolver = m_flowerRenderer.material;
 
         m_removeSampleButton.gameObject.SetActive(false);
+        m_sampleBadge.gameObject.SetActive(false);
 
         LeanTouch.OnFingerTap += FingerTap;
         LeanTouch.OnFingerUp += FingerUp;
@@ -46,18 +48,21 @@ public class FlowerPot : MonoBehaviour
         if (m_hoveringPackage != null)
         {
             OnSampleChange?.Invoke(m_hoveringPackage.Sample);
-            UpdateFlower(m_hoveringPackage.Flower);
+            UpdateFlower(m_hoveringPackage);
         }
     }
 
-    private void UpdateFlower(Sprite p_flower)
+    private void UpdateFlower(SeedsPackageUI p_package)
     {
         m_removeSampleButton.gameObject.SetActive(true);
 
         m_spriteDissolver.SetFloat("_CutOutAmount", 1f);
-        m_flowerRenderer.sprite = p_flower;
+        m_flowerRenderer.sprite = p_package.Flower;
 
         m_appearEffect = m_spriteDissolver.DOFloat(0f, "_CutOutAmount", m_appearEffectDuration);
+
+        m_sampleBadge.color = p_package.Color.DarkerShade().SetA(1f);
+        m_sampleBadge.gameObject.SetActive(true);
     }
 
     private void RemoveFlower()
@@ -66,6 +71,8 @@ public class FlowerPot : MonoBehaviour
 
         var progression = m_spriteDissolver.GetFloat("_CutOutAmount");
         m_appearEffect = m_spriteDissolver.DOFloat(1f, "_CutOutAmount", (1f - progression) * m_appearEffectDuration).SetEase(Ease.Linear);
+
+        m_sampleBadge.gameObject.SetActive(false);
     }
 
     private void RemoveSample()
