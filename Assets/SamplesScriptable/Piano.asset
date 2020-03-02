@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63317943b4cbbbe48b222551549a7f8c, type: 3}
   m_Name: Piano
   m_EditorClassIdentifier: 
-  Clip: {fileID: 8300000, guid: ec4e450d4fcff8e488a76163aaab46dc, type: 3}
+  Clip: {fileID: 8300000, guid: b87dae6134ec41147b0eb74e8d0d5730, type: 3}
