@@ -2909,6 +2909,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_sequencer: {fileID: 705235939}
   m_shaderProperty: _Amount
+  m_startValue: 0
+  m_endValue: 1
 --- !u!1 &1178846243
 GameObject:
   m_ObjectHideFlags: 0
@@ -3444,6 +3446,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_sequencer: {fileID: 705235939}
   m_shaderProperty: _CutOutAmount
+  m_startValue: 1
+  m_endValue: 0
 --- !u!212 &2022807221
 SpriteRenderer:
   m_ObjectHideFlags: 0
