@@ -18,6 +18,8 @@ public class Sequencer : MonoBehaviour
     public float CycleDuration => m_cycleDuration;
     public int CurrentBar => m_currentBar;
     public float BarDuration => m_barDurationInSeconds;
+    public float BarProgression => m_barProgression;
+    public float BarPosition => m_barDurationInSeconds * m_barProgression;
 
     public List<Sample> PlayingSamples => m_tracks.Where(t => t.Sample != null).Select(t => t.Sample).ToList();
 

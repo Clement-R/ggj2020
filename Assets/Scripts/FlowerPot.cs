@@ -13,20 +13,26 @@ public class FlowerPot : MonoBehaviour
     public Action<Sample> OnSampleChange;
     public Action OnSampleRemoved;
 
-    [SerializeField] List<GameObject> m_outlineParts;
-    [SerializeField] SpriteRenderer m_flowerRenderer;
-    [SerializeField] SpriteRenderer m_sampleBadge;
-    [SerializeField] Collider2D m_removeSampleButton;
+    [SerializeField] private Sequencer m_sequencer;
+    [SerializeField] private SpriteRenderer m_barDuration;
+    [SerializeField] private List<GameObject> m_outlineParts;
+    [SerializeField] private SpriteRenderer m_flowerRenderer;
+    [SerializeField] private SpriteRenderer m_sampleBadge;
+    [SerializeField] private Collider2D m_removeSampleButton;
 
     private bool m_outlined = false;
     private SeedsPackageUI m_hoveringPackage = null;
     private Material m_spriteDissolver;
     private Tweener m_appearEffect;
     private float m_appearEffectDuration = 1f;
+    private Material m_barDurationMaterial;
 
     void Start()
     {
         m_spriteDissolver = m_flowerRenderer.material;
+        m_barDurationMaterial = m_barDuration.material;
+
+        m_barDuration.gameObject.SetActive(false);
 
         m_removeSampleButton.gameObject.SetActive(false);
         m_sampleBadge.gameObject.SetActive(false);
@@ -48,6 +54,18 @@ public class FlowerPot : MonoBehaviour
         if (m_hoveringPackage != null)
         {
             OnSampleChange?.Invoke(m_hoveringPackage.Sample);
+
+            if (m_sequencer.PlayingSamples.Count > 1)
+            {
+                m_barDuration.gameObject.SetActive(true);
+                m_barDurationMaterial.SetFloat("_Amount", m_sequencer.BarProgression);
+                m_barDurationMaterial.DOFloat(1f, "_Amount", m_sequencer.BarDuration - m_sequencer.BarPosition).SetEase(Ease.Linear)
+                    .OnComplete(() =>
+                    {
+                        m_barDuration.gameObject.SetActive(false);
+                    });
+            }
+
             UpdateFlower(m_hoveringPackage);
         }
     }
