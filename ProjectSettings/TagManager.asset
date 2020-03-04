@@ -54,3 +54,6 @@ TagManager:
   - name: SeedsPackage
     uniqueID: 1300585431
     locked: 0
+  - name: Particles
+    uniqueID: 2759876045
+    locked: 0
