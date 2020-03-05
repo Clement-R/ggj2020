@@ -2408,7 +2408,7 @@ PrefabInstance:
     - target: {fileID: 2260871483601641224, guid: 60b5a33bf4b5c93418e674bd0c318308,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.16
+      value: 0.108
       objectReference: {fileID: 0}
     - target: {fileID: 2260871483601641224, guid: 60b5a33bf4b5c93418e674bd0c318308,
         type: 3}
@@ -3290,6 +3290,7 @@ GameObject:
   - component: {fileID: 1088569068}
   - component: {fileID: 1088569067}
   - component: {fileID: 1088569070}
+  - component: {fileID: 1088569071}
   m_Layer: 5
   m_Name: ScrollRect
   m_TagString: Untagged
@@ -3396,6 +3397,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1088569071
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088569065}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1103035665
 GameObject:
   m_ObjectHideFlags: 0
@@ -3487,6 +3500,7 @@ GameObject:
   - component: {fileID: 1158578913}
   - component: {fileID: 1158578912}
   - component: {fileID: 1158578914}
+  - component: {fileID: 1158578915}
   m_Layer: 5
   m_Name: BarProgressionBackground
   m_TagString: Untagged
@@ -3565,6 +3579,18 @@ MonoBehaviour:
   m_shaderProperty: _Amount
   m_startValue: 0
   m_endValue: 1
+--- !u!225 &1158578915
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158578910}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1178846243
 GameObject:
   m_ObjectHideFlags: 0
@@ -3641,7 +3667,7 @@ PrefabInstance:
     - target: {fileID: 2260871483601641224, guid: 60b5a33bf4b5c93418e674bd0c318308,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.29
+      value: -1.34
       objectReference: {fileID: 0}
     - target: {fileID: 2260871483601641224, guid: 60b5a33bf4b5c93418e674bd0c318308,
         type: 3}
@@ -5341,6 +5367,11 @@ PrefabInstance:
       propertyPath: m_sequencer
       value: 
       objectReference: {fileID: 705235939}
+    - target: {fileID: 4493788316595524240, guid: 60b5a33bf4b5c93418e674bd0c318308,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60b5a33bf4b5c93418e674bd0c318308, type: 3}
 --- !u!1001 &3474869845812986654
