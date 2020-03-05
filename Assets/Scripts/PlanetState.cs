@@ -101,7 +101,6 @@ public class PlanetState : MonoBehaviour
                     if (go.TryGetComponent(out ParticleSystem particleSystem))
                     {
                         particleSystem.Play();
-                        Debug.Log($"Play {particleSystem.gameObject.name}");
                     }
                 }
             }

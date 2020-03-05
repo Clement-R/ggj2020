@@ -3446,31 +3446,31 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 8192fc2be7728c6409cb8f8929e70403, type: 2}
     - {fileID: 11400000, guid: e979b1dc1113d184aa81ffd85f5b22c7, type: 2}
     - {fileID: 11400000, guid: 20f7e3724c8512240a5343a9f4f6183b, type: 2}
-    CurrentState: 0
+    CurrentState: -1
     Unlocked: 0
   - Name: Ice
     Zone: 3
     SamplesToUnlock:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    CurrentState: 0
+    - {fileID: 11400000, guid: 5b6d8404b46e37342bfe35466e681f7f, type: 2}
+    - {fileID: 11400000, guid: 20f7e3724c8512240a5343a9f4f6183b, type: 2}
+    - {fileID: 11400000, guid: 4e2b9a0a2316d1d468fcc99706d27e7d, type: 2}
+    CurrentState: -1
     Unlocked: 0
   - Name: Nature
     Zone: 1
     SamplesToUnlock:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    CurrentState: 0
+    - {fileID: 11400000, guid: 8192fc2be7728c6409cb8f8929e70403, type: 2}
+    - {fileID: 11400000, guid: eddda37edf972994597bcb094708b473, type: 2}
+    - {fileID: 11400000, guid: 93b8952a4bb44914aba575693282aff0, type: 2}
+    CurrentState: -1
     Unlocked: 0
   - Name: Desert
     Zone: 2
     SamplesToUnlock:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    CurrentState: 0
+    - {fileID: 11400000, guid: 8cb523b85db757142b492bf641612307, type: 2}
+    - {fileID: 11400000, guid: 93b8952a4bb44914aba575693282aff0, type: 2}
+    - {fileID: 11400000, guid: eddda37edf972994597bcb094708b473, type: 2}
+    CurrentState: -1
     Unlocked: 0
   m_numberOfLockedStates: 3
   DEBUG_ZONE: 0
