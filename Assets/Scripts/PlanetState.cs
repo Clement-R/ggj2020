@@ -92,6 +92,19 @@ public class PlanetState : MonoBehaviour
         if (planetZone.CurrentState == m_numberOfLockedStates - 1)
         {
             planetZone.Unlocked = true;
+
+            // Play all particle systems when unlocking whole zone
+            for (int i = 0; i < m_props[p_zone].Count; i++)
+            {
+                foreach (var go in m_props[p_zone][i])
+                {
+                    if (go.TryGetComponent(out ParticleSystem particleSystem))
+                    {
+                        particleSystem.Play();
+                        Debug.Log($"Play {particleSystem.gameObject.name}");
+                    }
+                }
+            }
         }
     }
 

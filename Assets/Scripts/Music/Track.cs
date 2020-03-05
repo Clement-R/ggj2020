@@ -59,7 +59,7 @@ public class Track : MonoBehaviour
             return;
 
         m_audioSource.clip = m_sample.Clip;
-        m_audioSource.time = m_sequencer.CyclePosition;
+        m_audioSource.time = m_sequencer.CyclePosition > 0f ? m_sequencer.CyclePosition : 0f;
         m_audioSource.Play();
     }
 }
