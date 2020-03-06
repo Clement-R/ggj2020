@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1043077940614521770}
   - component: {fileID: 7140903451535171180}
   - component: {fileID: 9028527782013022953}
+  - component: {fileID: 9053644186552793060}
   m_Layer: 5
   m_Name: SeedPackageUI
   m_TagString: SeedsPackage
@@ -145,6 +146,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 140}
   m_EdgeRadius: 0
+--- !u!225 &9053644186552793060
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043077940614521748}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1363697559276745624
 GameObject:
   m_ObjectHideFlags: 0
