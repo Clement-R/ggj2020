@@ -11,6 +11,8 @@ public class PlanetState : MonoBehaviour
     [SerializeField] List<PlanetZone> m_planetZones;
     [SerializeField] int m_numberOfLockedStates = 3;
 
+    [SerializeField] ZoneRepairedEffect m_zoneRepairedEffect;
+
     public EZone DEBUG_ZONE = 0;
 
     [SerializeField] private Sequencer m_sequencer;
@@ -92,6 +94,8 @@ public class PlanetState : MonoBehaviour
         if (planetZone.CurrentState == m_numberOfLockedStates - 1)
         {
             planetZone.Unlocked = true;
+
+            m_zoneRepairedEffect.Play();
 
             // Play all particle systems when unlocking whole zone
             for (int i = 0; i < m_props[p_zone].Count; i++)
