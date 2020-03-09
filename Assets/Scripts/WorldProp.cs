@@ -15,4 +15,14 @@ public class WorldProp : MonoBehaviour
     {
         PlanetState.Instance.RegisterProp(this);
     }
+
+    public void Show()
+    {
+        //TODO: Implement
+    }
+
+    public void Hide()
+    {
+        //TODO: Implement
+    }
 }
