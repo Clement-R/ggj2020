@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Amount: 0.8554572
+    - _Amount: 0
     m_Colors:
     - _BackgroundColor: {r: 0.511, g: 0.7986471, b: 1, a: 1}
     - _Color: {r: 0, g: 0.492353, b: 0.83699995, a: 1}
