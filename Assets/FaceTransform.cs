@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
+[ExecuteInEditMode]
 public class FaceTransform : MonoBehaviour
 {
     [SerializeField] private Transform m_transform;
 
     void Update()
     {
-        Vector3 pos = m_transform.position;
-        Vector3 dir = -pos;
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        if (m_transform == null) return;
+
+        transform.up = (transform.position - m_transform.position).normalized;
     }
 }
