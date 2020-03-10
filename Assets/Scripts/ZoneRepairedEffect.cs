@@ -22,7 +22,7 @@ public class ZoneRepairedEffect : MonoBehaviour
                 }
             )
             .Join(m_text.DOAnchorPosX(0f, 0.75f).SetDelay(0.2f))
-            .AppendInterval(1f)
+            .AppendInterval(2.5f)
             .AppendCallback(
                 () =>
                 {
