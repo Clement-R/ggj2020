@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8822480017863186075}
   - component: {fileID: 8822480017863186073}
   - component: {fileID: 8822480017863186072}
+  - component: {fileID: 7595062422323103654}
+  - component: {fileID: 9218466821827991602}
   m_Layer: 0
   m_Name: cloud
   m_TagString: Untagged
@@ -97,6 +99,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_around: {fileID: 0}
   m_speed: 0.05
+  m_randomSpeed: 1
+  m_speedRange: {x: 0.016, y: 0.033}
 --- !u!114 &8822480017863186072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,3 +114,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_transform: {fileID: 0}
+--- !u!114 &7595062422323103654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8822480017863186020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e244cc1f3d1fc43c98776d827a40b42e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sprite: {fileID: 8822480017863186075}
+  m_timeBetweenCycle: {x: 3, y: 10}
+  m_fadeDurationRange: {x: 1.5, y: 3}
+  m_probability: 0.5
+--- !u!114 &9218466821827991602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8822480017863186020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cbb50a23da98d34eb54616962c09a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sprites:
+  - {fileID: 21300000, guid: c6da4b628d8c19f4e80f99e03362ac26, type: 3}
+  - {fileID: 21300000, guid: 0461bdc1f8b0bcd4ab5f84c175db4432, type: 3}
+  - {fileID: 21300000, guid: 43101017f97b23442beb5d5af2d515c0, type: 3}
+  - {fileID: 21300000, guid: 294a1e5dee952f44393a2301b967a205, type: 3}
+  - {fileID: 21300000, guid: 33ed30b563ab44b4fa730629340c8e6c, type: 3}
+  - {fileID: 21300000, guid: a0ea858dc27951044932791dd8ae6d9e, type: 3}
+  - {fileID: 21300000, guid: 0a532155023cba54eaed610bf4277b87, type: 3}
+  - {fileID: 21300000, guid: d51ebb7c50ce0b944bb9e8e29aecea74, type: 3}
+  m_sr: {fileID: 8822480017863186075}
