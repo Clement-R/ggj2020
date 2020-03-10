@@ -17,7 +17,7 @@ public class PlanetState : MonoBehaviour
 
     [SerializeField] private Sequencer m_sequencer;
 
-    private Dictionary<EZone, Dictionary<int, List<GameObject>>> m_props = new Dictionary<EZone, Dictionary<int, List<GameObject>>>();
+    private Dictionary<EZone, Dictionary<int, List<WorldProp>>> m_props = new Dictionary<EZone, Dictionary<int, List<WorldProp>>>();
 
     private void Awake()
     {
@@ -38,16 +38,16 @@ public class PlanetState : MonoBehaviour
     {
         if (m_props.ContainsKey(p_prop.Zone) == false)
         {
-            m_props.Add(p_prop.Zone, new Dictionary<int, List<GameObject>>());
+            m_props.Add(p_prop.Zone, new Dictionary<int, List<WorldProp>>());
         }
 
         if (m_props[p_prop.Zone].ContainsKey(p_prop.State) == false)
         {
-            m_props[p_prop.Zone].Add(p_prop.State, new List<GameObject>());
+            m_props[p_prop.Zone].Add(p_prop.State, new List<WorldProp>());
         }
 
-        m_props[p_prop.Zone][p_prop.State].Add(p_prop.gameObject);
-        p_prop.gameObject.SetActive(false);
+        m_props[p_prop.Zone][p_prop.State].Add(p_prop);
+        p_prop.Hide();
     }
 
     private void SequencerTrackChanged()
@@ -76,7 +76,7 @@ public class PlanetState : MonoBehaviour
     {
         var planetZone = m_planetZones.Find(z => z.Zone == p_zone);
 
-        m_props[p_zone][planetZone.CurrentState].ForEach(p => p.SetActive(false));
+        m_props[p_zone][planetZone.CurrentState].ForEach(p => p.Hide());
 
         planetZone.CurrentState--;
         planetZone.CurrentState = Mathf.Clamp(planetZone.CurrentState, -1, m_numberOfLockedStates - 1);
@@ -89,7 +89,7 @@ public class PlanetState : MonoBehaviour
         planetZone.CurrentState++;
         planetZone.CurrentState = Mathf.Clamp(planetZone.CurrentState, -1, m_numberOfLockedStates - 1);
 
-        m_props[p_zone][planetZone.CurrentState].ForEach(p => p.SetActive(true));
+        m_props[p_zone][planetZone.CurrentState].ForEach(p => p.Show());
 
         if (planetZone.CurrentState == m_numberOfLockedStates - 1)
         {

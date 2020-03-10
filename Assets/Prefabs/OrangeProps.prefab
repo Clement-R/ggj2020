@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 106403297}
   - component: {fileID: 106403296}
   - component: {fileID: 9012842595237641692}
+  - component: {fileID: 4129763685928075429}
   m_Layer: 0
   m_Name: bushOrange2 (2)
   m_TagString: Untagged
@@ -96,6 +97,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &4129763685928075429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106403295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &475312879
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,6 +124,7 @@ GameObject:
   - component: {fileID: 475312880}
   - component: {fileID: 475312881}
   - component: {fileID: 2497334426132423782}
+  - component: {fileID: 2502132127667725268}
   m_Layer: 0
   m_Name: treePineOrange
   m_TagString: Untagged
@@ -192,6 +210,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &2502132127667725268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475312879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &867698302
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +237,7 @@ GameObject:
   - component: {fileID: 867698303}
   - component: {fileID: 867698304}
   - component: {fileID: 5214072312164692964}
+  - component: {fileID: 521141057267981481}
   m_Layer: 0
   m_Name: treePineOrange (2)
   m_TagString: Untagged
@@ -288,6 +323,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &521141057267981481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867698302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &1406132037
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +350,7 @@ GameObject:
   - component: {fileID: 1406132039}
   - component: {fileID: 1406132038}
   - component: {fileID: 4490932676187784262}
+  - component: {fileID: 677717248914238784}
   m_Layer: 0
   m_Name: bushOrange2
   m_TagString: Untagged
@@ -384,6 +436,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &677717248914238784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406132037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &1991948834
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,6 +463,7 @@ GameObject:
   - component: {fileID: 1991948835}
   - component: {fileID: 1991948836}
   - component: {fileID: 529158747117283064}
+  - component: {fileID: 991868220845716433}
   m_Layer: 0
   m_Name: treePineOrange (1)
   m_TagString: Untagged
@@ -480,6 +549,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &991868220845716433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991948834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &2141593851
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,6 +576,7 @@ GameObject:
   - component: {fileID: 2141593853}
   - component: {fileID: 2141593852}
   - component: {fileID: 7127856594137311764}
+  - component: {fileID: 8858399489649569645}
   m_Layer: 0
   m_Name: bushOrange2 (1)
   m_TagString: Untagged
@@ -576,6 +662,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &8858399489649569645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141593851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &72053895268398293
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +689,7 @@ GameObject:
   - component: {fileID: 6215201555519465963}
   - component: {fileID: 7193528589130292688}
   - component: {fileID: 8996230715323265518}
+  - component: {fileID: 2843755903618935977}
   m_Layer: 0
   m_Name: foliagePack_013 (42)
   m_TagString: Untagged
@@ -672,6 +775,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &2843755903618935977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72053895268398293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &1152979663804634490
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +802,7 @@ GameObject:
   - component: {fileID: 6090495471727856568}
   - component: {fileID: 5458480462380814280}
   - component: {fileID: 566734335995968896}
+  - component: {fileID: 3533124690973501442}
   m_Layer: 0
   m_Name: foliagePack_013 (48)
   m_TagString: Untagged
@@ -768,6 +888,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &3533124690973501442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152979663804634490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &1309860789072758335
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,6 +945,7 @@ GameObject:
   - component: {fileID: 3691828170396531593}
   - component: {fileID: 7350474768338072837}
   - component: {fileID: 9038609186605146716}
+  - component: {fileID: 1694064612637674228}
   m_Layer: 0
   m_Name: foliagePack_013 (49)
   m_TagString: Untagged
@@ -894,6 +1031,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &1694064612637674228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669608468978107992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &2441946621836095302
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,6 +1058,7 @@ GameObject:
   - component: {fileID: 871418528170009556}
   - component: {fileID: 8310904992560934525}
   - component: {fileID: 2987297091688972761}
+  - component: {fileID: 8077803249838078959}
   m_Layer: 0
   m_Name: foliagePack_013 (46)
   m_TagString: Untagged
@@ -990,6 +1144,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &8077803249838078959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441946621836095302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &3692909200134796200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1171,7 @@ GameObject:
   - component: {fileID: 908574777849572594}
   - component: {fileID: 1739121810064537997}
   - component: {fileID: 4722648846806135684}
+  - component: {fileID: 1362263349522258077}
   m_Layer: 0
   m_Name: foliagePack_013 (44)
   m_TagString: Untagged
@@ -1086,6 +1257,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &1362263349522258077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3692909200134796200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &4427082174642729320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,6 +1284,7 @@ GameObject:
   - component: {fileID: 4032355615508501235}
   - component: {fileID: 6493548072092519883}
   - component: {fileID: 8916474509728393015}
+  - component: {fileID: 1466173788441338423}
   m_Layer: 0
   m_Name: foliagePack_013 (45)
   m_TagString: Untagged
@@ -1182,6 +1370,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &1466173788441338423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4427082174642729320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903080713834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,6 +1397,7 @@ GameObject:
   - component: {fileID: 5435056903080713836}
   - component: {fileID: 5435056903080713835}
   - component: {fileID: 5141856770105469477}
+  - component: {fileID: 6351929009693752779}
   m_Layer: 0
   m_Name: foliagePack_013 (5)
   m_TagString: Untagged
@@ -1278,6 +1483,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &6351929009693752779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903080713834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903092493177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,6 +1510,7 @@ GameObject:
   - component: {fileID: 5435056903092493179}
   - component: {fileID: 5435056903092493178}
   - component: {fileID: 778545349860473381}
+  - component: {fileID: 2760816455973359622}
   m_Layer: 0
   m_Name: foliagePack_013 (33)
   m_TagString: Untagged
@@ -1374,6 +1596,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &2760816455973359622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903092493177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903109290673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,6 +1623,7 @@ GameObject:
   - component: {fileID: 5435056903109290675}
   - component: {fileID: 5435056903109290674}
   - component: {fileID: 3973398754095313158}
+  - component: {fileID: 7916753740336618899}
   m_Layer: 0
   m_Name: foliagePack_013 (39)
   m_TagString: Untagged
@@ -1470,6 +1709,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &7916753740336618899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903109290673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903128768238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,6 +1736,7 @@ GameObject:
   - component: {fileID: 5435056903128768240}
   - component: {fileID: 5435056903128768239}
   - component: {fileID: 7894052036583988426}
+  - component: {fileID: 1260491932960606447}
   m_Layer: 0
   m_Name: foliagePack_013 (24)
   m_TagString: Untagged
@@ -1566,6 +1822,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &1260491932960606447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903128768238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903230434238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +1849,7 @@ GameObject:
   - component: {fileID: 5435056903230434176}
   - component: {fileID: 5435056903230434239}
   - component: {fileID: 6000457627544526763}
+  - component: {fileID: 8442020066547212326}
   m_Layer: 0
   m_Name: foliagePack_013 (10)
   m_TagString: Untagged
@@ -1662,6 +1935,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &8442020066547212326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903230434238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903295180613
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1962,7 @@ GameObject:
   - component: {fileID: 5435056903295180615}
   - component: {fileID: 5435056903295180614}
   - component: {fileID: 7875683141125420830}
+  - component: {fileID: 302865268964014916}
   m_Layer: 0
   m_Name: foliagePack_013 (12)
   m_TagString: Untagged
@@ -1758,6 +2048,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &302865268964014916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903295180613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903311863482
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,6 +2075,7 @@ GameObject:
   - component: {fileID: 5435056903311863484}
   - component: {fileID: 5435056903311863483}
   - component: {fileID: 8493652189118682451}
+  - component: {fileID: 3703486779983204047}
   m_Layer: 0
   m_Name: foliagePack_013 (16)
   m_TagString: Untagged
@@ -1854,6 +2161,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &3703486779983204047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903311863482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903327124521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,6 +2188,7 @@ GameObject:
   - component: {fileID: 5435056903327124523}
   - component: {fileID: 5435056903327124522}
   - component: {fileID: 5945476007256244832}
+  - component: {fileID: 3899844371216415536}
   m_Layer: 0
   m_Name: foliagePack_013 (34)
   m_TagString: Untagged
@@ -1950,6 +2274,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &3899844371216415536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903327124521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903427557357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,6 +2301,7 @@ GameObject:
   - component: {fileID: 5435056903427557359}
   - component: {fileID: 5435056903427557358}
   - component: {fileID: 548087667649420798}
+  - component: {fileID: 907924892943265581}
   m_Layer: 0
   m_Name: foliagePack_013 (25)
   m_TagString: Untagged
@@ -2046,6 +2387,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &907924892943265581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903427557357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903455265416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2057,6 +2414,7 @@ GameObject:
   - component: {fileID: 5435056903455265418}
   - component: {fileID: 5435056903455265417}
   - component: {fileID: 5028242908282252056}
+  - component: {fileID: 6400573178303269659}
   m_Layer: 0
   m_Name: foliagePack_013 (6)
   m_TagString: Untagged
@@ -2142,6 +2500,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &6400573178303269659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903455265416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903483616485
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,6 +2527,7 @@ GameObject:
   - component: {fileID: 5435056903483616487}
   - component: {fileID: 5435056903483616486}
   - component: {fileID: 5789223845880301732}
+  - component: {fileID: 8877162216462272251}
   m_Layer: 0
   m_Name: foliagePack_013 (3)
   m_TagString: Untagged
@@ -2238,6 +2613,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &8877162216462272251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903483616485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903504884925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2249,6 +2640,7 @@ GameObject:
   - component: {fileID: 5435056903504884927}
   - component: {fileID: 5435056903504884926}
   - component: {fileID: 4536430526747416136}
+  - component: {fileID: 258936239802591068}
   m_Layer: 0
   m_Name: foliagePack_013 (27)
   m_TagString: Untagged
@@ -2334,6 +2726,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &258936239802591068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903504884925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903798501868
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,6 +2753,7 @@ GameObject:
   - component: {fileID: 5435056903798501870}
   - component: {fileID: 5435056903798501869}
   - component: {fileID: 1390509346588874120}
+  - component: {fileID: 4045221890952743314}
   m_Layer: 0
   m_Name: foliagePack_013 (9)
   m_TagString: Untagged
@@ -2430,6 +2839,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &4045221890952743314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903798501868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903900126487
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,6 +2866,7 @@ GameObject:
   - component: {fileID: 5435056903900126489}
   - component: {fileID: 5435056903900126488}
   - component: {fileID: 4451275893134863914}
+  - component: {fileID: 6891944938260474439}
   m_Layer: 0
   m_Name: foliagePack_013 (32)
   m_TagString: Untagged
@@ -2526,6 +2952,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &6891944938260474439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903900126487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903924275250
 GameObject:
   m_ObjectHideFlags: 0
@@ -2627,6 +3069,7 @@ GameObject:
   - component: {fileID: 5435056903927195771}
   - component: {fileID: 5435056903927195770}
   - component: {fileID: 5938469630597958923}
+  - component: {fileID: 2962087213018002101}
   m_Layer: 0
   m_Name: foliagePack_013 (23)
   m_TagString: Untagged
@@ -2712,6 +3155,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &2962087213018002101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903927195769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903938287923
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,6 +3182,7 @@ GameObject:
   - component: {fileID: 5435056903938287925}
   - component: {fileID: 5435056903938287924}
   - component: {fileID: 7392999704861164010}
+  - component: {fileID: 5245751287683234093}
   m_Layer: 0
   m_Name: foliagePack_013 (15)
   m_TagString: Untagged
@@ -2808,6 +3268,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &5245751287683234093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903938287923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903952511018
 GameObject:
   m_ObjectHideFlags: 0
@@ -2819,6 +3295,7 @@ GameObject:
   - component: {fileID: 5435056903952511020}
   - component: {fileID: 5435056903952511019}
   - component: {fileID: 5916459402309575401}
+  - component: {fileID: 8905606160760233704}
   m_Layer: 0
   m_Name: foliagePack_013 (8)
   m_TagString: Untagged
@@ -2904,6 +3381,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &8905606160760233704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903952511018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056903998789418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2915,6 +3408,7 @@ GameObject:
   - component: {fileID: 5435056903998789420}
   - component: {fileID: 5435056903998789419}
   - component: {fileID: 5887850278593315699}
+  - component: {fileID: 7296089465816839920}
   m_Layer: 0
   m_Name: foliagePack_013 (4)
   m_TagString: Untagged
@@ -3000,6 +3494,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &7296089465816839920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056903998789418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904003356145
 GameObject:
   m_ObjectHideFlags: 0
@@ -3011,6 +3521,7 @@ GameObject:
   - component: {fileID: 5435056904003356147}
   - component: {fileID: 5435056904003356146}
   - component: {fileID: 5267948804444952275}
+  - component: {fileID: 1464881040953797387}
   m_Layer: 0
   m_Name: foliagePack_013 (31)
   m_TagString: Untagged
@@ -3096,6 +3607,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &1464881040953797387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904003356145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904117900211
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,6 +3634,7 @@ GameObject:
   - component: {fileID: 5435056904117900213}
   - component: {fileID: 5435056904117900212}
   - component: {fileID: 7493901316562490614}
+  - component: {fileID: 2991977705524002149}
   m_Layer: 0
   m_Name: foliagePack_013 (36)
   m_TagString: Untagged
@@ -3192,6 +3720,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &2991977705524002149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904117900211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904135613313
 GameObject:
   m_ObjectHideFlags: 0
@@ -3203,6 +3747,7 @@ GameObject:
   - component: {fileID: 5435056904135613315}
   - component: {fileID: 5435056904135613314}
   - component: {fileID: 8071669099227851481}
+  - component: {fileID: 5195558973447461187}
   m_Layer: 0
   m_Name: foliagePack_013 (28)
   m_TagString: Untagged
@@ -3288,6 +3833,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &5195558973447461187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904135613313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904169576484
 GameObject:
   m_ObjectHideFlags: 0
@@ -3299,6 +3860,7 @@ GameObject:
   - component: {fileID: 5435056904169576486}
   - component: {fileID: 5435056904169576485}
   - component: {fileID: 8426462852365932508}
+  - component: {fileID: 9178291330919393495}
   m_Layer: 0
   m_Name: foliagePack_013 (14)
   m_TagString: Untagged
@@ -3384,6 +3946,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &9178291330919393495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904169576484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904186901629
 GameObject:
   m_ObjectHideFlags: 0
@@ -3395,6 +3973,7 @@ GameObject:
   - component: {fileID: 5435056904186901631}
   - component: {fileID: 5435056904186901630}
   - component: {fileID: 1479549265581701106}
+  - component: {fileID: 7971403462102139319}
   m_Layer: 0
   m_Name: foliagePack_013 (2)
   m_TagString: Untagged
@@ -3480,6 +4059,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &7971403462102139319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904186901629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904285370455
 GameObject:
   m_ObjectHideFlags: 0
@@ -3491,6 +4086,7 @@ GameObject:
   - component: {fileID: 5435056904285370457}
   - component: {fileID: 5435056904285370456}
   - component: {fileID: 1337257581669297804}
+  - component: {fileID: 6670384573228845970}
   m_Layer: 0
   m_Name: foliagePack_013 (20)
   m_TagString: Untagged
@@ -3576,6 +4172,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &6670384573228845970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904285370455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904336813025
 GameObject:
   m_ObjectHideFlags: 0
@@ -3587,6 +4199,7 @@ GameObject:
   - component: {fileID: 5435056904336813027}
   - component: {fileID: 5435056904336813026}
   - component: {fileID: 2936759488722082342}
+  - component: {fileID: 4335398326094137530}
   m_Layer: 0
   m_Name: foliagePack_013 (40)
   m_TagString: Untagged
@@ -3672,6 +4285,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &4335398326094137530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904336813025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904418908353
 GameObject:
   m_ObjectHideFlags: 0
@@ -3683,6 +4312,7 @@ GameObject:
   - component: {fileID: 5435056904418908355}
   - component: {fileID: 5435056904418908354}
   - component: {fileID: 3475321263453379728}
+  - component: {fileID: 8065282210025534701}
   m_Layer: 0
   m_Name: foliagePack_013 (38)
   m_TagString: Untagged
@@ -3768,6 +4398,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &8065282210025534701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904418908353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904463119709
 GameObject:
   m_ObjectHideFlags: 0
@@ -3779,6 +4425,7 @@ GameObject:
   - component: {fileID: 5435056904463119711}
   - component: {fileID: 5435056904463119710}
   - component: {fileID: 8666437659575609472}
+  - component: {fileID: 6395491487292618925}
   m_Layer: 0
   m_Name: foliagePack_013 (1)
   m_TagString: Untagged
@@ -3864,6 +4511,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &6395491487292618925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904463119709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904486856169
 GameObject:
   m_ObjectHideFlags: 0
@@ -3875,6 +4538,7 @@ GameObject:
   - component: {fileID: 5435056904486856171}
   - component: {fileID: 5435056904486856170}
   - component: {fileID: 2494361544042685527}
+  - component: {fileID: 3931197566521093974}
   m_Layer: 0
   m_Name: foliagePack_013 (19)
   m_TagString: Untagged
@@ -3960,6 +4624,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &3931197566521093974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904486856169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904514733536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3971,6 +4651,7 @@ GameObject:
   - component: {fileID: 5435056904514733538}
   - component: {fileID: 5435056904514733537}
   - component: {fileID: 2888780831488876634}
+  - component: {fileID: 2557794931309690877}
   m_Layer: 0
   m_Name: foliagePack_013
   m_TagString: Untagged
@@ -4056,6 +4737,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &2557794931309690877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904514733536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904574275040
 GameObject:
   m_ObjectHideFlags: 0
@@ -4067,6 +4764,7 @@ GameObject:
   - component: {fileID: 5435056904574275042}
   - component: {fileID: 5435056904574275041}
   - component: {fileID: 5803983504804093363}
+  - component: {fileID: 8168551079724896653}
   m_Layer: 0
   m_Name: foliagePack_013 (22)
   m_TagString: Untagged
@@ -4152,6 +4850,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &8168551079724896653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904574275040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904579710333
 GameObject:
   m_ObjectHideFlags: 0
@@ -4163,6 +4877,7 @@ GameObject:
   - component: {fileID: 5435056904579710335}
   - component: {fileID: 5435056904579710334}
   - component: {fileID: 1488019725077978983}
+  - component: {fileID: 7639292142532616640}
   m_Layer: 0
   m_Name: foliagePack_013 (18)
   m_TagString: Untagged
@@ -4248,6 +4963,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &7639292142532616640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904579710333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904678749734
 GameObject:
   m_ObjectHideFlags: 0
@@ -4259,6 +4990,7 @@ GameObject:
   - component: {fileID: 5435056904678749736}
   - component: {fileID: 5435056904678749735}
   - component: {fileID: 5751863789239345536}
+  - component: {fileID: 3500666570112724623}
   m_Layer: 0
   m_Name: foliagePack_013 (35)
   m_TagString: Untagged
@@ -4344,6 +5076,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &3500666570112724623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904678749734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904681071705
 GameObject:
   m_ObjectHideFlags: 0
@@ -4355,6 +5103,7 @@ GameObject:
   - component: {fileID: 5435056904681071707}
   - component: {fileID: 5435056904681071706}
   - component: {fileID: 8006925239675007976}
+  - component: {fileID: 8313827278406914798}
   m_Layer: 0
   m_Name: foliagePack_013 (21)
   m_TagString: Untagged
@@ -4440,6 +5189,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &8313827278406914798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904681071705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904683261197
 GameObject:
   m_ObjectHideFlags: 0
@@ -4451,6 +5216,7 @@ GameObject:
   - component: {fileID: 5435056904683261199}
   - component: {fileID: 5435056904683261198}
   - component: {fileID: 3242822818625852178}
+  - component: {fileID: 2373075942327094875}
   m_Layer: 0
   m_Name: foliagePack_013 (13)
   m_TagString: Untagged
@@ -4536,6 +5302,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &2373075942327094875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904683261197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904708133501
 GameObject:
   m_ObjectHideFlags: 0
@@ -4547,6 +5329,7 @@ GameObject:
   - component: {fileID: 5435056904708133503}
   - component: {fileID: 5435056904708133502}
   - component: {fileID: 4161928405602993839}
+  - component: {fileID: 5255497702221546564}
   m_Layer: 0
   m_Name: foliagePack_013 (37)
   m_TagString: Untagged
@@ -4632,6 +5415,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &5255497702221546564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904708133501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904733851949
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,6 +5442,7 @@ GameObject:
   - component: {fileID: 5435056904733851951}
   - component: {fileID: 5435056904733851950}
   - component: {fileID: 8155629812039988025}
+  - component: {fileID: 7146309214204558692}
   m_Layer: 0
   m_Name: foliagePack_013 (11)
   m_TagString: Untagged
@@ -4728,6 +5528,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &7146309214204558692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904733851949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904757404206
 GameObject:
   m_ObjectHideFlags: 0
@@ -4739,6 +5555,7 @@ GameObject:
   - component: {fileID: 5435056904757404208}
   - component: {fileID: 5435056904757404207}
   - component: {fileID: 6829537837439994773}
+  - component: {fileID: 5190232466952673675}
   m_Layer: 0
   m_Name: foliagePack_013 (29)
   m_TagString: Untagged
@@ -4824,6 +5641,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &5190232466952673675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904757404206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904787010459
 GameObject:
   m_ObjectHideFlags: 0
@@ -4835,6 +5668,7 @@ GameObject:
   - component: {fileID: 5435056904787010461}
   - component: {fileID: 5435056904787010460}
   - component: {fileID: 6829585862143694539}
+  - component: {fileID: 7260923621880037770}
   m_Layer: 0
   m_Name: foliagePack_013 (30)
   m_TagString: Untagged
@@ -4920,6 +5754,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &7260923621880037770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904787010459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904808308533
 GameObject:
   m_ObjectHideFlags: 0
@@ -4931,6 +5781,7 @@ GameObject:
   - component: {fileID: 5435056904808308535}
   - component: {fileID: 5435056904808308534}
   - component: {fileID: 2528105194846466345}
+  - component: {fileID: 3517810942984141205}
   m_Layer: 0
   m_Name: foliagePack_013 (7)
   m_TagString: Untagged
@@ -5016,6 +5867,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &3517810942984141205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904808308533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904888905028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5027,6 +5894,7 @@ GameObject:
   - component: {fileID: 5435056904888905030}
   - component: {fileID: 5435056904888905029}
   - component: {fileID: 4411208513247333425}
+  - component: {fileID: 2507316022828583370}
   m_Layer: 0
   m_Name: foliagePack_013 (17)
   m_TagString: Untagged
@@ -5112,6 +5980,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &2507316022828583370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904888905028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904889264541
 GameObject:
   m_ObjectHideFlags: 0
@@ -5123,6 +6007,7 @@ GameObject:
   - component: {fileID: 5435056904889264542}
   - component: {fileID: 5435056904889264543}
   - component: {fileID: 2595571751694800385}
+  - component: {fileID: 8160044515823626822}
   m_Layer: 0
   m_Name: foliagePack_013 (41)
   m_TagString: Untagged
@@ -5208,6 +6093,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 1
+--- !u!114 &8160044515823626822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904889264541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 1
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &5435056904934405310
 GameObject:
   m_ObjectHideFlags: 0
@@ -5219,6 +6120,7 @@ GameObject:
   - component: {fileID: 5435056904934405248}
   - component: {fileID: 5435056904934405311}
   - component: {fileID: 8016791837581677232}
+  - component: {fileID: 1624126592184804689}
   m_Layer: 0
   m_Name: foliagePack_013 (26)
   m_TagString: Untagged
@@ -5304,6 +6206,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 0
+--- !u!114 &1624126592184804689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435056904934405310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 0
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &6633080292001463098
 GameObject:
   m_ObjectHideFlags: 0
@@ -5315,6 +6233,7 @@ GameObject:
   - component: {fileID: 870887844222897006}
   - component: {fileID: 7340181482302528065}
   - component: {fileID: 4944928220742352581}
+  - component: {fileID: 4362526515463249512}
   m_Layer: 0
   m_Name: foliagePack_013 (43)
   m_TagString: Untagged
@@ -5400,6 +6319,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &4362526515463249512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6633080292001463098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &7022017569879693667
 GameObject:
   m_ObjectHideFlags: 0
@@ -5411,6 +6346,7 @@ GameObject:
   - component: {fileID: 6881438123416043624}
   - component: {fileID: 8232188590178526413}
   - component: {fileID: 5727558771219014854}
+  - component: {fileID: 3427114913576823933}
   m_Layer: 0
   m_Name: treePineOrange (3)
   m_TagString: Untagged
@@ -5496,6 +6432,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &3427114913576823933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7022017569879693667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &8074377028355908662
 GameObject:
   m_ObjectHideFlags: 0
@@ -5507,6 +6459,7 @@ GameObject:
   - component: {fileID: 6633016905421248193}
   - component: {fileID: 7728246827431329025}
   - component: {fileID: 3671608152809677663}
+  - component: {fileID: 3150799088073090313}
   m_Layer: 0
   m_Name: foliagePack_013 (47)
   m_TagString: Untagged
@@ -5592,6 +6545,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_zone: 0
   m_layer: 2
+--- !u!114 &3150799088073090313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8074377028355908662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7f301b61116944a8171f15e660beaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_zone: 0
+  m_layer: 2
+  m_fadeDurationRange: {x: 0.75, y: 1.5}
+  m_delayBeforeFadeRange: {x: 0, y: 0.5}
 --- !u!1 &8192794525418837947
 GameObject:
   m_ObjectHideFlags: 0

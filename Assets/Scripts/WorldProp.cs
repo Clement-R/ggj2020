@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine;
 
-using UnityEngine;
+using DG.Tweening;
 
 public class WorldProp : MonoBehaviour
 {
@@ -11,18 +10,18 @@ public class WorldProp : MonoBehaviour
     [SerializeField] private EZone m_zone;
     [SerializeField] private int m_layer;
 
-    private void Start()
+    protected virtual void Start()
     {
         PlanetState.Instance.RegisterProp(this);
     }
 
-    public void Show()
+    public virtual void Show()
     {
-        //TODO: Implement
+        gameObject.SetActive(true);
     }
 
-    public void Hide()
+    public virtual void Hide()
     {
-        //TODO: Implement
+        gameObject.SetActive(false);
     }
 }
