@@ -12,6 +12,7 @@ public class PlanetState : MonoBehaviour
     [SerializeField] int m_numberOfLockedStates = 3;
 
     [SerializeField] ZoneRepairedEffect m_zoneRepairedEffect;
+    [SerializeField] EndGameEffect m_endGameEffect;
 
     public EZone DEBUG_ZONE = 0;
 
@@ -95,7 +96,14 @@ public class PlanetState : MonoBehaviour
         {
             planetZone.Unlocked = true;
 
-            m_zoneRepairedEffect.Play();
+            if (CheckGameEnd())
+            {
+                m_endGameEffect.PlayEffect();
+            }
+            else
+            {
+                m_zoneRepairedEffect.Play();
+            }
 
             // Play all particle systems when unlocking whole zone
             for (int i = 0; i < m_props[p_zone].Count; i++)
@@ -109,6 +117,11 @@ public class PlanetState : MonoBehaviour
                 }
             }
         }
+    }
+
+    private bool CheckGameEnd()
+    {
+        return m_planetZones.All(z => z.Unlocked);
     }
 
     [ContextMenu("Debug lock")]
