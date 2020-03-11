@@ -23,13 +23,20 @@ public class SeedsPackageUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     [SerializeField] private Camera m_camera;
     [SerializeField] private float m_dragThreshold = 0.08f;
 
+    [SerializeField] private float m_dragEndDownFactor = 1f;
+
+    [SerializeField] private GameObject m_emptyPackagePrefab;
+    [SerializeField] private RectTransform m_container;
+    [SerializeField] private CanvasGroup m_containerCanvasGroup;
+
+    private GameObject m_emptyPackage;
+
     private RectTransform m_rectTransform;
 
     private bool m_isScrolling = false;
     private bool m_isDragging = false;
 
     private Vector3 m_delta;
-    private Vector3 m_startPosition;
     private Transform m_parent;
     private int m_siblingIndex;
 
@@ -42,7 +49,7 @@ public class SeedsPackageUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     private void OnValidate()
     {
-        m_background.color = m_color;
+        m_background.color = m_color.SetA(1f);
         m_top.color = m_color.DarkerShade();
     }
 
@@ -55,9 +62,12 @@ public class SeedsPackageUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             return;
         }
 
+        // Create empty slot at position in scroll
+        m_emptyPackage = Instantiate(m_emptyPackagePrefab, m_parent);
+        m_emptyPackage.transform.SetSiblingIndex(m_siblingIndex);
+
         transform.parent = m_scrollRect.transform.parent;
 
-        m_startPosition = m_rectTransform.position;
         m_isDragging = true;
         m_delta = m_camera.ScreenToWorldPoint(eventData.position) - m_rectTransform.position;
     }
@@ -81,11 +91,14 @@ public class SeedsPackageUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     {
         if (m_isDragging)
         {
+            //TODO: Remove empty slot in scroll
+            Destroy(m_emptyPackage);
+
             transform.parent = m_parent;
             transform.SetSiblingIndex(m_siblingIndex);
 
-            // transform.position = m_startPosition - Vector3.up * 65f;
-            // transform.DOMoveY(m_startPosition.y, 0.5f).SetDelay(0.15f);
+            // Tween back to original position
+            StartCoroutine(_EndDragEffect());
 
             m_isDragging = false;
         }
@@ -95,5 +108,19 @@ public class SeedsPackageUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             m_scrollRect.OnEndDrag(eventData);
             m_isScrolling = false;
         }
+    }
+
+    private IEnumerator _EndDragEffect()
+    {
+        m_containerCanvasGroup.DOFade(0f, 0f);
+
+        yield return null;
+
+        m_containerCanvasGroup.DOFade(1f, 0.35f);
+
+        Vector3 startPosition = transform.position;
+
+        m_container.position = startPosition - Vector3.up * m_dragEndDownFactor;
+        m_container.DOMoveY(startPosition.y, 0.5f).SetDelay(0.35f);
     }
 }
