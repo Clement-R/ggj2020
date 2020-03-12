@@ -5857,7 +5857,7 @@ MonoBehaviour:
   - {fileID: 658085750}
   - {fileID: 18369427}
   m_loopSource: {fileID: 829275146}
-  m_vinylNoise: {fileID: 8300000, guid: b05b8d1332f5418498c050b7c35bf03b, type: 3}
+  m_vinylNoise: {fileID: 8300000, guid: 5706a6ae5882a4eacbe690bc0220fb27, type: 3}
 --- !u!4 &1348275630
 Transform:
   m_ObjectHideFlags: 0

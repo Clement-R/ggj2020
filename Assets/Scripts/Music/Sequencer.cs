@@ -7,9 +7,9 @@ using UnityEngine;
 
 public class Sequencer : MonoBehaviour
 {
-    public Action OnBar;
-    public Action OnBeat;
-    public Action OnStop;
+    public static Action OnBar;
+    public static Action OnBeat;
+    public static Action OnStop;
 
     public Action OnTrackChanged;
 

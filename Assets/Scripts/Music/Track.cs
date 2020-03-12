@@ -27,7 +27,7 @@ public class Track : MonoBehaviour
     public void Register(Sequencer p_sequencer)
     {
         m_sequencer = p_sequencer;
-        m_sequencer.OnBar += BarChanged;
+        Sequencer.OnBar += BarChanged;
     }
 
     public void SampleChange(Sample p_sample)
@@ -59,7 +59,7 @@ public class Track : MonoBehaviour
             return;
 
         m_audioSource.clip = m_sample.Clip;
-        m_audioSource.time = m_sequencer.CyclePosition > 0f ? m_sequencer.CyclePosition : 0f;
+        m_audioSource.time = Mathf.Clamp(m_sequencer.CyclePosition, 0f, m_audioSource.clip.length); // m_sequencer.CyclePosition > 0f ? m_sequencer.CyclePosition : 0f;
         m_audioSource.Play();
     }
 }

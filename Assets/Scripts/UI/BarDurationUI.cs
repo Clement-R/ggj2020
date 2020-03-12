@@ -24,8 +24,8 @@ public class BarDurationUI : MonoBehaviour
 
         m_material.SetFloat(m_shaderProperty, m_startValue);
 
-        m_sequencer.OnBar += Bar;
-        m_sequencer.OnStop += Stop;
+        Sequencer.OnBar += Bar;
+        Sequencer.OnStop += Stop;
     }
 
     private void Stop()
