@@ -44,7 +44,7 @@ public class RandomVisibility : MonoBehaviour
     private void RandomStateChange()
     {
         float rand = Random.Range(0f, 1f);
-        if (rand > m_probability)
+        if (rand <= m_probability)
         {
             if (m_isVisible == false)
             {

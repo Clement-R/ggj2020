@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 39847235}
   - component: {fileID: 2119743054043355259}
   - component: {fileID: 3172489846255991597}
+  - component: {fileID: 6555167366387367955}
   m_Layer: 0
   m_Name: cactus1 (19)
   m_TagString: Untagged
@@ -113,6 +114,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &6555167366387367955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39847233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &77330239
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +141,7 @@ GameObject:
   - component: {fileID: 77330240}
   - component: {fileID: 2380950645730053449}
   - component: {fileID: 4480605458819494340}
+  - component: {fileID: 6666068536153022654}
   m_Layer: 0
   m_Name: cactus1
   m_TagString: Untagged
@@ -226,6 +243,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &6666068536153022654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77330239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &165004497
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,6 +270,7 @@ GameObject:
   - component: {fileID: 165004499}
   - component: {fileID: 3597636503455861863}
   - component: {fileID: 7254927766263861779}
+  - component: {fileID: 8117854155821337813}
   m_Layer: 0
   m_Name: cactus1 (2)
   m_TagString: Untagged
@@ -339,6 +372,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8117854155821337813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165004497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &184591008
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +399,7 @@ GameObject:
   - component: {fileID: 184591010}
   - component: {fileID: 2792356415545022866}
   - component: {fileID: 1124479843287448550}
+  - component: {fileID: 114912516285567324}
   m_Layer: 0
   m_Name: pyramid (8)
   m_TagString: Untagged
@@ -452,6 +501,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &114912516285567324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184591008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &211600152
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +528,7 @@ GameObject:
   - component: {fileID: 211600154}
   - component: {fileID: 7669004838041241362}
   - component: {fileID: 8224101114148161779}
+  - component: {fileID: 3943884259572700527}
   m_Layer: 0
   m_Name: cactus1 (17)
   m_TagString: Untagged
@@ -565,6 +630,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &3943884259572700527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211600152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &347955493
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +657,7 @@ GameObject:
   - component: {fileID: 347955495}
   - component: {fileID: 9030668531477384544}
   - component: {fileID: 3613914200454145820}
+  - component: {fileID: 6154594355083207523}
   m_Layer: 0
   m_Name: pyramid (9)
   m_TagString: Untagged
@@ -678,6 +759,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &6154594355083207523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347955493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &426517705
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,6 +786,7 @@ GameObject:
   - component: {fileID: 426517707}
   - component: {fileID: 793890482493140762}
   - component: {fileID: 7322412069209864044}
+  - component: {fileID: 9178880991858160025}
   m_Layer: 0
   m_Name: pyramid (2)
   m_TagString: Untagged
@@ -791,6 +888,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &9178880991858160025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426517705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &428239278
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +915,7 @@ GameObject:
   - component: {fileID: 428239280}
   - component: {fileID: 4605677599293983484}
   - component: {fileID: 1467546711181789675}
+  - component: {fileID: 8231974880097953785}
   m_Layer: 0
   m_Name: pyramid (6)
   m_TagString: Untagged
@@ -904,6 +1017,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8231974880097953785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428239278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &500409480
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,6 +1044,7 @@ GameObject:
   - component: {fileID: 500409481}
   - component: {fileID: 8345311196336211920}
   - component: {fileID: 3876399118641525036}
+  - component: {fileID: 28083102536195527}
   m_Layer: 0
   m_Name: pyramid
   m_TagString: Untagged
@@ -1017,6 +1146,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &28083102536195527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500409480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &501010173
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1173,7 @@ GameObject:
   - component: {fileID: 501010175}
   - component: {fileID: 7584985786055220252}
   - component: {fileID: 1972529869303674418}
+  - component: {fileID: 1494584997966801407}
   m_Layer: 0
   m_Name: cactus1 (14)
   m_TagString: Untagged
@@ -1130,6 +1275,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &1494584997966801407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501010173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &543347758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,6 +1302,7 @@ GameObject:
   - component: {fileID: 543347760}
   - component: {fileID: 1813687292907503621}
   - component: {fileID: 5418256709605156474}
+  - component: {fileID: 5388221914159315222}
   m_Layer: 0
   m_Name: cactus1 (20)
   m_TagString: Untagged
@@ -1243,6 +1404,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &5388221914159315222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543347758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &614488398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,6 +1431,7 @@ GameObject:
   - component: {fileID: 614488400}
   - component: {fileID: 5677740554807251082}
   - component: {fileID: 567663798543550135}
+  - component: {fileID: 3488179745191973672}
   m_Layer: 0
   m_Name: cactus1 (13)
   m_TagString: Untagged
@@ -1356,6 +1533,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &3488179745191973672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614488398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &682634454
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,6 +1560,7 @@ GameObject:
   - component: {fileID: 682634455}
   - component: {fileID: 8401703397542008179}
   - component: {fileID: 3904356917362428945}
+  - component: {fileID: 9050876042617948821}
   m_Layer: 0
   m_Name: cactus2
   m_TagString: Untagged
@@ -1469,6 +1662,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &9050876042617948821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682634454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &736025578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,6 +1770,7 @@ GameObject:
   - component: {fileID: 811698554}
   - component: {fileID: 7499983972781248339}
   - component: {fileID: 5906854438484563763}
+  - component: {fileID: 983058316225584374}
   m_Layer: 0
   m_Name: cactus1 (1)
   m_TagString: Untagged
@@ -1663,6 +1872,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &983058316225584374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811698552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &825131866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,6 +1980,7 @@ GameObject:
   - component: {fileID: 967313976}
   - component: {fileID: 5323082537665784195}
   - component: {fileID: 6749019690668158903}
+  - component: {fileID: 8477608226841899959}
   m_Layer: 0
   m_Name: cactus1 (12)
   m_TagString: Untagged
@@ -1857,6 +2082,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8477608226841899959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967313974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &999849510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,6 +2109,7 @@ GameObject:
   - component: {fileID: 999849512}
   - component: {fileID: 5048280280699856007}
   - component: {fileID: 4809677301342506846}
+  - component: {fileID: 8783981603543052953}
   m_Layer: 0
   m_Name: cactus1 (18)
   m_TagString: Untagged
@@ -1970,6 +2211,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8783981603543052953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999849510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1007996004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,6 +2238,7 @@ GameObject:
   - component: {fileID: 1007996006}
   - component: {fileID: 6905744383928253682}
   - component: {fileID: 7154551086477470556}
+  - component: {fileID: 7909905369383293854}
   m_Layer: 0
   m_Name: pyramid (4)
   m_TagString: Untagged
@@ -2083,6 +2340,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &7909905369383293854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007996004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1026214381
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,6 +2367,7 @@ GameObject:
   - component: {fileID: 1026214383}
   - component: {fileID: 283143543441286594}
   - component: {fileID: 6892394573909545909}
+  - component: {fileID: 590268084815223285}
   m_Layer: 0
   m_Name: pyramid (3)
   m_TagString: Untagged
@@ -2196,6 +2469,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &590268084815223285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026214381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1136100308
 GameObject:
   m_ObjectHideFlags: 0
@@ -2208,6 +2496,7 @@ GameObject:
   - component: {fileID: 1136100310}
   - component: {fileID: 4457475992132074944}
   - component: {fileID: 7940281460291163491}
+  - component: {fileID: 7338367174893278638}
   m_Layer: 0
   m_Name: pyramid (5)
   m_TagString: Untagged
@@ -2309,6 +2598,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &7338367174893278638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136100308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1254454251
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,6 +2706,7 @@ GameObject:
   - component: {fileID: 1296748519}
   - component: {fileID: 5753073036574372084}
   - component: {fileID: 3957716433771733379}
+  - component: {fileID: 8293460270331759684}
   m_Layer: 0
   m_Name: pyramid (7)
   m_TagString: Untagged
@@ -2503,6 +2808,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8293460270331759684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296748517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1313624023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,6 +2835,7 @@ GameObject:
   - component: {fileID: 1313624025}
   - component: {fileID: 116778830614667067}
   - component: {fileID: 8447277985944333215}
+  - component: {fileID: 4488976274334002594}
   m_Layer: 0
   m_Name: cactus1 (15)
   m_TagString: Untagged
@@ -2616,6 +2937,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &4488976274334002594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313624023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1352293755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2709,6 +3045,7 @@ GameObject:
   - component: {fileID: 1390719285}
   - component: {fileID: 5974801571593929456}
   - component: {fileID: 869162187583071708}
+  - component: {fileID: 6237686820650946713}
   m_Layer: 0
   m_Name: pyramid (1)
   m_TagString: Untagged
@@ -2810,6 +3147,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &6237686820650946713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390719283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1463768501
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,6 +3255,7 @@ GameObject:
   - component: {fileID: 1603142367}
   - component: {fileID: 8790288241854053806}
   - component: {fileID: 4022816975646064406}
+  - component: {fileID: 8787616242449643321}
   m_Layer: 0
   m_Name: cactus1 (4)
   m_TagString: Untagged
@@ -3004,6 +3357,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8787616242449643321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603142365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1707829674
 GameObject:
   m_ObjectHideFlags: 0
@@ -3097,6 +3465,7 @@ GameObject:
   - component: {fileID: 1853768085}
   - component: {fileID: 4567158560134439119}
   - component: {fileID: 3677398982042575679}
+  - component: {fileID: 9114025776373419594}
   m_Layer: 0
   m_Name: cactus1 (16)
   m_TagString: Untagged
@@ -3198,6 +3567,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &9114025776373419594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853768083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1893336536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,6 +3594,7 @@ GameObject:
   - component: {fileID: 1893336538}
   - component: {fileID: 4319759696274249485}
   - component: {fileID: 157038194810124149}
+  - component: {fileID: 8244929171101808021}
   m_Layer: 0
   m_Name: cactus1 (3)
   m_TagString: Untagged
@@ -3311,6 +3696,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8244929171101808021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893336536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1976278784
 GameObject:
   m_ObjectHideFlags: 0
@@ -3404,6 +3804,7 @@ GameObject:
   - component: {fileID: 4549496719432743871}
   - component: {fileID: 35400106141981825}
   - component: {fileID: 7771014465708969164}
+  - component: {fileID: 2859967173351395668}
   m_Layer: 0
   m_Name: cactus2 (1)
   m_TagString: Untagged
@@ -3505,6 +3906,21 @@ MonoBehaviour:
   m_layer: 1
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &2859967173351395668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287296024376026342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &519161075058143532
 GameObject:
   m_ObjectHideFlags: 0
@@ -3644,6 +4060,7 @@ GameObject:
   - component: {fileID: 3236501490713884119}
   - component: {fileID: 4243505564047310562}
   - component: {fileID: 3141347729722851085}
+  - component: {fileID: 8432842510223566071}
   m_Layer: 0
   m_Name: cactus2 (2)
   m_TagString: Untagged
@@ -3745,6 +4162,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8432842510223566071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4646233727609246213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &5134780207777866939
 GameObject:
   m_ObjectHideFlags: 0

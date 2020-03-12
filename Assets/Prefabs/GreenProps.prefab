@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 56110272}
   - component: {fileID: 4857921832568545976}
   - component: {fileID: 1266758005606873704}
+  - component: {fileID: 5900302403948931791}
   m_Layer: 0
   m_Name: treeSmall_green1 (3)
   m_TagString: Untagged
@@ -113,6 +114,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &5900302403948931791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56110270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &73442117
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +141,7 @@ GameObject:
   - component: {fileID: 73442119}
   - component: {fileID: 5801420789489416042}
   - component: {fileID: 3118528895574799079}
+  - component: {fileID: 2531944294734409477}
   m_Layer: 0
   m_Name: foliagePack_018 (1)
   m_TagString: Untagged
@@ -226,6 +243,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &2531944294734409477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73442117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &168028879
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,6 +270,7 @@ GameObject:
   - component: {fileID: 168028881}
   - component: {fileID: 3545175177616978231}
   - component: {fileID: 8144146790449205283}
+  - component: {fileID: 3302734709268765399}
   m_Layer: 0
   m_Name: treeSmall_green3 (4)
   m_TagString: Untagged
@@ -339,6 +372,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &3302734709268765399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168028879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &251723776
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +399,7 @@ GameObject:
   - component: {fileID: 251723778}
   - component: {fileID: 1718727715078551876}
   - component: {fileID: 1703954945178314203}
+  - component: {fileID: 5274857732452634451}
   m_Layer: 0
   m_Name: foliagePack_062 (1)
   m_TagString: Untagged
@@ -452,6 +501,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &5274857732452634451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251723776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &350431384
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +528,7 @@ GameObject:
   - component: {fileID: 350431386}
   - component: {fileID: 5192609859005659580}
   - component: {fileID: 4294006940586937007}
+  - component: {fileID: 569754561948527329}
   m_Layer: 0
   m_Name: treeSmall_green3 (7)
   m_TagString: Untagged
@@ -565,6 +630,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &569754561948527329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350431384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &517450034
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +657,7 @@ GameObject:
   - component: {fileID: 517450036}
   - component: {fileID: 7665275668991243811}
   - component: {fileID: 2197770263057962653}
+  - component: {fileID: 4119478779508965833}
   m_Layer: 0
   m_Name: foliagePack_040
   m_TagString: Untagged
@@ -678,6 +759,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &4119478779508965833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517450034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &538823188
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,6 +786,7 @@ GameObject:
   - component: {fileID: 538823190}
   - component: {fileID: 3361701064839781771}
   - component: {fileID: 2015856097223595490}
+  - component: {fileID: 4791843421263227752}
   m_Layer: 0
   m_Name: foliagePack_007 (1)
   m_TagString: Untagged
@@ -791,6 +888,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &4791843421263227752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538823188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &558012182
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +915,7 @@ GameObject:
   - component: {fileID: 558012184}
   - component: {fileID: 744968722848172440}
   - component: {fileID: 8456734247613746939}
+  - component: {fileID: 3260264157291644289}
   m_Layer: 0
   m_Name: treeSmall_green3 (8)
   m_TagString: Untagged
@@ -904,6 +1017,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &3260264157291644289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558012182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &719879860
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,6 +1044,7 @@ GameObject:
   - component: {fileID: 719879862}
   - component: {fileID: 299552164899932921}
   - component: {fileID: 5701173698579373999}
+  - component: {fileID: 62266218604269785}
   m_Layer: 0
   m_Name: foliagePack_020
   m_TagString: Untagged
@@ -1017,6 +1146,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &62266218604269785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719879860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &745524540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1173,7 @@ GameObject:
   - component: {fileID: 745524541}
   - component: {fileID: 5938598564187187499}
   - component: {fileID: 658480567926082740}
+  - component: {fileID: 5750237880458006298}
   m_Layer: 0
   m_Name: treeSmall_green1
   m_TagString: Untagged
@@ -1130,6 +1275,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &5750237880458006298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745524540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &769002518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,6 +1302,7 @@ GameObject:
   - component: {fileID: 769002520}
   - component: {fileID: 4551229432833511684}
   - component: {fileID: 6914640575515291570}
+  - component: {fileID: 8452988354635946746}
   m_Layer: 0
   m_Name: foliagePack_018
   m_TagString: Untagged
@@ -1243,6 +1404,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8452988354635946746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769002518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &773158456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,6 +1431,7 @@ GameObject:
   - component: {fileID: 773158458}
   - component: {fileID: 206920931293582571}
   - component: {fileID: 256317199672752560}
+  - component: {fileID: 2826272574972922057}
   m_Layer: 0
   m_Name: foliagePack_009
   m_TagString: Untagged
@@ -1356,6 +1533,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &2826272574972922057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773158456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &818912955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,6 +1560,7 @@ GameObject:
   - component: {fileID: 818912957}
   - component: {fileID: 9221299300614233105}
   - component: {fileID: 2131220666078661400}
+  - component: {fileID: 111876619686259952}
   m_Layer: 0
   m_Name: foliagePack_053
   m_TagString: Untagged
@@ -1469,6 +1662,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &111876619686259952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818912955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1029806513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,6 +1689,7 @@ GameObject:
   - component: {fileID: 1029806515}
   - component: {fileID: 7790657763542550803}
   - component: {fileID: 1755465293533688244}
+  - component: {fileID: 5749697277244138127}
   m_Layer: 0
   m_Name: treeSmall_green1 (5)
   m_TagString: Untagged
@@ -1582,6 +1791,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &5749697277244138127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029806513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1151136840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,6 +1818,7 @@ GameObject:
   - component: {fileID: 1151136842}
   - component: {fileID: 4489112831691552161}
   - component: {fileID: 7523666494009607914}
+  - component: {fileID: 4424246657922608479}
   m_Layer: 0
   m_Name: foliagePack_062
   m_TagString: Untagged
@@ -1695,6 +1920,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &4424246657922608479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151136840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1190737352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,6 +1947,7 @@ GameObject:
   - component: {fileID: 1190737354}
   - component: {fileID: 7675342479526548340}
   - component: {fileID: 4361365914877790959}
+  - component: {fileID: 2631164111429575483}
   m_Layer: 0
   m_Name: foliagePack_056
   m_TagString: Untagged
@@ -1808,6 +2049,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &2631164111429575483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190737352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1264230250
 GameObject:
   m_ObjectHideFlags: 0
@@ -1820,6 +2076,7 @@ GameObject:
   - component: {fileID: 1264230252}
   - component: {fileID: 4980223611493421027}
   - component: {fileID: 1352477373027901613}
+  - component: {fileID: 2855323094679030983}
   m_Layer: 0
   m_Name: treeSmall_green1 (1)
   m_TagString: Untagged
@@ -1921,6 +2178,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &2855323094679030983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264230250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1290144093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,6 +2205,7 @@ GameObject:
   - component: {fileID: 1290144095}
   - component: {fileID: 4464701070928921604}
   - component: {fileID: 7572655159908885176}
+  - component: {fileID: 3363026955172740850}
   m_Layer: 0
   m_Name: foliagePack_007
   m_TagString: Untagged
@@ -2034,6 +2307,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &3363026955172740850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290144093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1319806039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2046,6 +2334,7 @@ GameObject:
   - component: {fileID: 1319806041}
   - component: {fileID: 4622934354889723156}
   - component: {fileID: 4059503652736240316}
+  - component: {fileID: 4583749338254019147}
   m_Layer: 0
   m_Name: foliagePack_018 (2)
   m_TagString: Untagged
@@ -2147,6 +2436,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &4583749338254019147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319806039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1370551175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,6 +2463,7 @@ GameObject:
   - component: {fileID: 1370551177}
   - component: {fileID: 233328206171418404}
   - component: {fileID: 8829958962237612968}
+  - component: {fileID: 8823599890145792215}
   m_Layer: 0
   m_Name: foliagePack_040 (1)
   m_TagString: Untagged
@@ -2260,6 +2565,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8823599890145792215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370551175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1434654960
 GameObject:
   m_ObjectHideFlags: 0
@@ -2272,6 +2592,7 @@ GameObject:
   - component: {fileID: 1434654962}
   - component: {fileID: 2539690678671027774}
   - component: {fileID: 553228873943017787}
+  - component: {fileID: 7551369900148325416}
   m_Layer: 0
   m_Name: treeSmall_green3 (5)
   m_TagString: Untagged
@@ -2373,6 +2694,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &7551369900148325416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434654960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1442174919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,6 +2721,7 @@ GameObject:
   - component: {fileID: 1442174921}
   - component: {fileID: 3290161007102053561}
   - component: {fileID: 8288593794994263401}
+  - component: {fileID: 9197761659789527817}
   m_Layer: 0
   m_Name: foliagePack_018 (3)
   m_TagString: Untagged
@@ -2486,6 +2823,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &9197761659789527817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442174919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1457725731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2498,6 +2850,7 @@ GameObject:
   - component: {fileID: 1457725733}
   - component: {fileID: 6638574374986010473}
   - component: {fileID: 6101563987416494019}
+  - component: {fileID: 2940202178251547512}
   m_Layer: 0
   m_Name: treeSmall_green1 (2)
   m_TagString: Untagged
@@ -2599,6 +2952,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &2940202178251547512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457725731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1599152836
 GameObject:
   m_ObjectHideFlags: 0
@@ -2611,6 +2979,7 @@ GameObject:
   - component: {fileID: 1599152838}
   - component: {fileID: 5615696159424208186}
   - component: {fileID: 2333108587055578592}
+  - component: {fileID: 4641226012248858094}
   m_Layer: 0
   m_Name: treeSmall_green3 (6)
   m_TagString: Untagged
@@ -2712,6 +3081,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &4641226012248858094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599152836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1676648400
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,6 +3108,7 @@ GameObject:
   - component: {fileID: 1676648402}
   - component: {fileID: 211652421898018336}
   - component: {fileID: 110224496100315359}
+  - component: {fileID: 7230034882201536208}
   m_Layer: 0
   m_Name: foliagePack_001
   m_TagString: Untagged
@@ -2825,6 +3210,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &7230034882201536208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676648400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1754269502
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,6 +3237,7 @@ GameObject:
   - component: {fileID: 1754269504}
   - component: {fileID: 1418389043006455080}
   - component: {fileID: 5815528535566514850}
+  - component: {fileID: 956431514021781676}
   m_Layer: 0
   m_Name: treeSmall_green3 (2)
   m_TagString: Untagged
@@ -2938,6 +3339,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &956431514021781676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754269502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1763316409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2950,6 +3366,7 @@ GameObject:
   - component: {fileID: 1763316411}
   - component: {fileID: 9062024405450877934}
   - component: {fileID: 5545974567975639604}
+  - component: {fileID: 3912916024030752436}
   m_Layer: 0
   m_Name: foliagePack_010
   m_TagString: Untagged
@@ -3051,6 +3468,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &3912916024030752436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763316409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1784764644
 GameObject:
   m_ObjectHideFlags: 0
@@ -3063,6 +3495,7 @@ GameObject:
   - component: {fileID: 1784764646}
   - component: {fileID: 955505780356667246}
   - component: {fileID: 8220883733596545772}
+  - component: {fileID: 7306271942296972528}
   m_Layer: 0
   m_Name: treeSmall_green1 (4)
   m_TagString: Untagged
@@ -3164,6 +3597,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &7306271942296972528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784764644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1801619542
 GameObject:
   m_ObjectHideFlags: 0
@@ -3176,6 +3624,7 @@ GameObject:
   - component: {fileID: 1801619544}
   - component: {fileID: 1157889530707045917}
   - component: {fileID: 5993126363176712151}
+  - component: {fileID: 2501096023707965605}
   m_Layer: 0
   m_Name: treeSmall_green3 (3)
   m_TagString: Untagged
@@ -3277,6 +3726,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &2501096023707965605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801619542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1896958612
 GameObject:
   m_ObjectHideFlags: 0
@@ -3289,6 +3753,7 @@ GameObject:
   - component: {fileID: 1896958614}
   - component: {fileID: 6788197382047403447}
   - component: {fileID: 8489095158908410415}
+  - component: {fileID: 5971450721955659930}
   m_Layer: 0
   m_Name: foliagePack_053 (1)
   m_TagString: Untagged
@@ -3390,6 +3855,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &5971450721955659930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896958612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1959559543
 GameObject:
   m_ObjectHideFlags: 0
@@ -3402,6 +3882,7 @@ GameObject:
   - component: {fileID: 1959559544}
   - component: {fileID: 5671827548219039535}
   - component: {fileID: 8347733031662573079}
+  - component: {fileID: 9191274960102015757}
   m_Layer: 0
   m_Name: treeSmall_green3
   m_TagString: Untagged
@@ -3503,6 +3984,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &9191274960102015757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959559543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &1970111387
 GameObject:
   m_ObjectHideFlags: 0
@@ -3515,6 +4011,7 @@ GameObject:
   - component: {fileID: 1970111389}
   - component: {fileID: 8833457962061609807}
   - component: {fileID: 4392230842867277051}
+  - component: {fileID: 2517046374050751157}
   m_Layer: 0
   m_Name: foliagePack_056 (1)
   m_TagString: Untagged
@@ -3616,6 +4113,21 @@ MonoBehaviour:
   m_layer: 0
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &2517046374050751157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970111387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &2136377228
 GameObject:
   m_ObjectHideFlags: 0
@@ -3628,6 +4140,7 @@ GameObject:
   - component: {fileID: 2136377229}
   - component: {fileID: 8327852845129345456}
   - component: {fileID: 4934314746630916322}
+  - component: {fileID: 1231387340825359262}
   m_Layer: 0
   m_Name: treeSmall_green3 (1)
   m_TagString: Untagged
@@ -3729,6 +4242,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &1231387340825359262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136377228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &642445066712081353
 GameObject:
   m_ObjectHideFlags: 0
@@ -3840,6 +4368,7 @@ GameObject:
   - component: {fileID: 7136900638330284057}
   - component: {fileID: 2293358325945342751}
   - component: {fileID: 4753117659086998837}
+  - component: {fileID: 59354862387402993}
   m_Layer: 0
   m_Name: treeSmall_green3 (1)
   m_TagString: Untagged
@@ -3941,6 +4470,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &59354862387402993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5905785948257764951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &6013964165046496150
 GameObject:
   m_ObjectHideFlags: 0
@@ -4013,6 +4557,7 @@ GameObject:
   - component: {fileID: 8045547245182720355}
   - component: {fileID: 7843495781746878822}
   - component: {fileID: 7841915563517038489}
+  - component: {fileID: 4099373040544413003}
   m_Layer: 0
   m_Name: treeSmall_green1
   m_TagString: Untagged
@@ -4114,6 +4659,21 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &4099373040544413003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8293350011359415251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
 --- !u!1 &8760093088244726821
 GameObject:
   m_ObjectHideFlags: 0
@@ -4126,6 +4686,7 @@ GameObject:
   - component: {fileID: 4483941834681398753}
   - component: {fileID: 8802217624577867798}
   - component: {fileID: 7168698957036760685}
+  - component: {fileID: 8764634154825511674}
   m_Layer: 0
   m_Name: treeSmall_green3
   m_TagString: Untagged
@@ -4227,3 +4788,18 @@ MonoBehaviour:
   m_layer: 2
   m_fadeDurationRange: {x: 0.75, y: 1.5}
   m_delayBeforeFadeRange: {x: 0, y: 0.5}
+--- !u!114 &8764634154825511674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8760093088244726821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bounceDurationRange: {x: 0.1, y: 0.25}
+  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_probability: 0.5
