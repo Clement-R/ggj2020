@@ -253,6 +253,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5878926467126787666, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 235ce50a49e96754b90baee5821f8f3e,
+        type: 3}
     - target: {fileID: 7140903451535171180, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
         type: 3}
       propertyPath: m_camera
@@ -450,6 +456,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5878926467126787666, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c072ea2cd86599a46b1fe1579d1cedc3,
+        type: 3}
     - target: {fileID: 7140903451535171180, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
         type: 3}
       propertyPath: m_camera
@@ -1098,6 +1110,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5878926467126787666, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 10c2f38adb64e614886350496f3ef8f3,
+        type: 3}
     - target: {fileID: 7140903451535171180, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
         type: 3}
       propertyPath: m_camera
@@ -1778,6 +1796,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5878926467126787666, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b9168050533b63642bc02d7d16711a25,
+        type: 3}
     - target: {fileID: 7140903451535171180, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
         type: 3}
       propertyPath: m_camera
@@ -2723,6 +2747,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5878926467126787666, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 47003e502a8a1bb49a510ff59fc9adf8,
+        type: 3}
     - target: {fileID: 7140903451535171180, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
         type: 3}
       propertyPath: m_camera
@@ -3412,6 +3442,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5878926467126787666, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 90b0bec71272f94479e4ccef76c80ce2,
+        type: 3}
     - target: {fileID: 7140903451535171180, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
         type: 3}
       propertyPath: m_camera
@@ -4329,6 +4365,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5878926467126787666, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f48220597e228cd4ca2bded40919f954,
+        type: 3}
     - target: {fileID: 7140903451535171180, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
         type: 3}
       propertyPath: m_camera
@@ -8552,6 +8594,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5878926467126787666, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 061a10793650a43409df105892478dee,
+        type: 3}
     - target: {fileID: 7140903451535171180, guid: 0aca4f91ad810a84b9f16dcea0510aa4,
         type: 3}
       propertyPath: m_camera

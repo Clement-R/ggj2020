@@ -16,7 +16,7 @@ public class RandomRhythmBounceEffect : MonoBehaviour
 
     void Start()
     {
-        Sequencer.OnBar += Bounce;
+        Sequencer.OnBeat += Bounce;
     }
 
     private bool ShouldBounce()

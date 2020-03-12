@@ -126,8 +126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &73442117
 GameObject:
@@ -255,8 +255,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &168028879
 GameObject:
@@ -384,8 +384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &251723776
 GameObject:
@@ -513,8 +513,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &350431384
 GameObject:
@@ -642,8 +642,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &517450034
 GameObject:
@@ -771,8 +771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &538823188
 GameObject:
@@ -900,8 +900,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &558012182
 GameObject:
@@ -1029,8 +1029,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &719879860
 GameObject:
@@ -1158,8 +1158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &745524540
 GameObject:
@@ -1287,8 +1287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &769002518
 GameObject:
@@ -1416,8 +1416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &773158456
 GameObject:
@@ -1545,8 +1545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &818912955
 GameObject:
@@ -1674,8 +1674,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1029806513
 GameObject:
@@ -1803,8 +1803,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1151136840
 GameObject:
@@ -1932,8 +1932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1190737352
 GameObject:
@@ -2061,8 +2061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1264230250
 GameObject:
@@ -2190,8 +2190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1290144093
 GameObject:
@@ -2319,8 +2319,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1319806039
 GameObject:
@@ -2448,8 +2448,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1370551175
 GameObject:
@@ -2577,8 +2577,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1434654960
 GameObject:
@@ -2706,8 +2706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1442174919
 GameObject:
@@ -2835,8 +2835,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1457725731
 GameObject:
@@ -2964,8 +2964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1599152836
 GameObject:
@@ -3093,8 +3093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1676648400
 GameObject:
@@ -3222,8 +3222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1754269502
 GameObject:
@@ -3351,8 +3351,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1763316409
 GameObject:
@@ -3480,8 +3480,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1784764644
 GameObject:
@@ -3609,8 +3609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1801619542
 GameObject:
@@ -3738,8 +3738,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1896958612
 GameObject:
@@ -3867,8 +3867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1959559543
 GameObject:
@@ -3996,8 +3996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &1970111387
 GameObject:
@@ -4125,8 +4125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &2136377228
 GameObject:
@@ -4254,8 +4254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &642445066712081353
 GameObject:
@@ -4482,8 +4482,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &6013964165046496150
 GameObject:
@@ -4671,8 +4671,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
 --- !u!1 &8760093088244726821
 GameObject:
@@ -4800,6 +4800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7fac3074a34ad79ab9c45d969a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bounceDurationRange: {x: 0.1, y: 0.25}
-  m_bounceFactorRange: {x: 0.05, y: 0.2}
+  m_bounceDurationRange: {x: 0.1, y: 0.15}
+  m_bounceFactorRange: {x: 0.015, y: 0.06}
   m_probability: 0.5
