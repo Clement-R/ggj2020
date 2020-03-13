@@ -4,9 +4,9 @@ using System.Linq;
 
 using UnityEngine;
 
-using TMPro;
-
 using DG.Tweening;
+
+using TMPro;
 
 public class EndGameEffect : MonoBehaviour
 {
@@ -74,7 +74,7 @@ public class EndGameEffect : MonoBehaviour
                 {
                     m_gameCompleteTransform.DOAnchorPosX(startX, 0f);
                 }
-            );;
+            );
 
     }
 }
