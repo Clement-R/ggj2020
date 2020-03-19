@@ -23,6 +23,8 @@ public class Sequencer : MonoBehaviour
 
     public List<Sample> PlayingSamples => m_tracks.Where(t => t.Sample != null).Select(t => t.Sample).ToList();
 
+    public List<Track> Tracks => m_tracks;
+
     [SerializeField] private float m_bpm;
     [SerializeField] private List<Track> m_tracks;
 
@@ -62,10 +64,14 @@ public class Sequencer : MonoBehaviour
         OnTrackChanged?.Invoke();
     }
 
+    private float CyclePos;
+
     void Update()
     {
         if (m_isPlaying == false)
             return;
+
+        CyclePos = m_cyclePosition;
 
         if (Time.time >= m_beatStart + m_beatDurationInSeconds)
         {
